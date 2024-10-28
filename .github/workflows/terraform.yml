@@ -2,8 +2,7 @@ name: "Vprofile IAC"
 on:
   push:
     branches:
-      - main
-      - stage
+      - "**"
     paths:
       - terrafrom/**
   pull_request:
